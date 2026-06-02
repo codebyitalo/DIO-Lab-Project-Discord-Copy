@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  background-color: #f6f6f6;
+  font-family: "Open Sans", sans-serif;
+}
+
+.first-content-container {
+  background-image: url("../img/background-img.png");
+  background-size: cover;
+  background-position-x: center;
+  min-height: 20rem;
+}
+
+.first-content {
+  padding-bottom: 5vw;
+}
+
+.text-color-first-content {
+  color: white;
+}
+
+.text-content-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-right: 35vw;
+  padding-left: 5vw;
+}
+
+#title {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+
+.text-content-paragraph {
+  font-size: 1.1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-specs {
+  width: 90%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+#Download-for-Windows {
+  background-color: white;
+  color: #23272a;
+}
+
+#Open-in-Browser {
+  background-color: #23272a;
+  color: white;
+}
+
+.text-default-identation {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.topics-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.first-topic {
+  margin-top: 2rem;
+}
+
+.topics-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  color: #23272a;
+  margin-bottom: 3rem;
+}
+
+.topics-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.fourth-topic-paragraph {
+  margin-bottom: 5vw;
+}
+
+.fourth-topic {
+  margin-bottom: 1rem;
+}
+
+#Discord-logo {
+  width: 16rem;
+  padding: 32px 0 32px 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #23272a;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  max-width: 678px;
+  height: auto;
+}
+
+@media screen and (min-width: 481px) {
+  .text-content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+
+  .text-content-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .button-specs {
+    font-size: 1.5rem;
+  }
+
+  .text-default-identation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fourth-topic-paragraph {
+    margin-bottom: 0px;
+  }
+
+  .third-topic-paragraph {
+    margin-bottom: 2vw;
+  }
+
+  .topics-title {
+    font-size: 2rem;
+  }
+
+  .topics-text {
+    font-size: 1.5rem;
+  }
+
+  .topics-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .topics {
+    align-items: center;
+  }
+}
