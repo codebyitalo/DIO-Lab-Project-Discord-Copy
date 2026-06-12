@@ -127,6 +127,7 @@ footer {
   height: auto;
 }
 
+/*Tablet screens*/
 @media screen and (min-width: 481px) {
   .text-content-title {
     display: flex;
@@ -178,8 +179,95 @@ footer {
   }
 }
 
+/*Small Desktops*/
 @media screen and (min-width: 769px) {
   .topics {
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .first-content-container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .first-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-content-title {
+    padding-top: 3vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: center;
+  }
+
+  #title {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+  }
+
+  .text-content-paragraph {
+    font-size: 1.4rem;
+  }
+
+  .buttons {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #Download-for-Windows {
+    width: 17rem;
+  }
+
+  #Open-in-Browser {
+    width: 25rem;
+  }
+
+  .topics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 10vw);
+    padding: 0 5vw;
+    margin: 0 auto;
+    gap: 3vw;
+  }
+
+  .img-container {
+    flex: 0 0 55%;
+    max-width: 55%;
+    min-width: 320px;
+    height: auto;
+  }
+
+  .topics-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-default-identation {
+    flex: 1 1 48%;
+    max-width: 48vw;
+    padding: 0 5vw;
+    text-align: left;
+  }
+
+  .topics-title {
+    text-align: left;
+    font-size: 3.5rem;
+  }
+
+  .second-topic {
+    flex-direction: row-reverse;
+  }
+
+  .fourth-topic {
+    padding-bottom: 5vw;
   }
 }
